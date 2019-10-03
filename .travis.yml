@@ -1,4 +1,5 @@
-install: make get-deps
+install: sudo apt-get update && make get-deps
+script: make test
 language: C
 compiler:
   - clang
